@@ -1,0 +1,19 @@
+name: cancer-proteomics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+      - cptac
+      - xgboost
+      - shap
